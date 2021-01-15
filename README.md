@@ -1,0 +1,12 @@
+版本管理  
+公共的API请求  
+URL统一维护  
+微信支付  
+代码混淆压缩  
+MiXin  
+公共提示tips  
+公共弹窗toast  
+校验工具(邮箱，手机，url,日期，身份证号)  
+对象转换（map转对象，对象转map）  
+存储工具LocalStorage  
+公共的web-view跳转页面  

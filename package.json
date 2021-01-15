@@ -1,0 +1,16 @@
+{
+  "name": "wechat-wepy-plugin",
+  "version": "1.0.0",
+  "description": "基于wepy开发微信小程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wepy",
+    "wechat",
+    "微信小程序"
+  ],
+  "author": "lettger@163.com",
+  "license": "ISC"
+}
