@@ -1,16 +1,29 @@
 {
   "name": "wechat-wepy-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "基于wepy开发微信小程序",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "node_modules/.bin/babel ./src --out-dir ./lib",
+    "build-watch": "node_modules/.bin/babel ./src --out-dir ./lib --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
   "keywords": [
     "wepy",
     "wechat",
     "微信小程序"
   ],
-  "author": "lettger@163.com",
-  "license": "ISC"
+  "author": "lettger",
+  "license": "MIT",
+  "homepage": "https://github.com/lettgers/wechat-wepy-plugin",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
