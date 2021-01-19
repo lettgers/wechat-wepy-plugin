@@ -1,16 +1,18 @@
-import pay from "./pay";
+import Pay from "./pay";
 import utils from "./utils";
 import validate from "./validate";
 import toast from "./toast";
 
-const install = function (opts = {}) {
-
+let install = function (opts = {}) {
+    console.log(opts)
 }
 
 export default {
-    pay,
+    Pay,
     utils,
     validate,
     toast,
     install
 }
+
+
