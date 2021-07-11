@@ -5,6 +5,7 @@
 export default class Pay {
 
     constructor() {
+
     }
 
     static payment(opts){
